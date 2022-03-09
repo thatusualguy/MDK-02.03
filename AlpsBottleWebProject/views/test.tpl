@@ -8,9 +8,9 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Page 9</title>
     <link rel="stylesheet" href="\static\content\text-on-image.css" media="screen">
-        <script class="u-script" type="text/javascript" src="//static.nicepage.com/shared/assets/jquery-1.9.1.min.js" defer=""></script>
+        <script class="u-script" type="text/javascript" src="\static\scripts\jquery-1.9.1.min.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="//capp.nicepage.com/4a40bbcb442c3bcd073740a692aa4e1cbfd11553/nicepage.js" defer=""></script>
-    <style class="u-style">.u-section-2 {background-image: url("//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1ecdd2f25bdd5e8ca9d7adca/pexels-photo-220444.jpeg?version="); background-position: 50% 50%}
+    <style class="u-style">.u-section-2 {background-image: url("//images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1ecdd2f25bdd5e8ca9d7adca/pexels-photo-220444.jpeg?versio   n="); background-position: 50% 50%}
 .u-section-2 .u-sheet-1 {min-height: 722px}
 .u-section-2 .u-text-1 {font-size: 3.75rem; text-transform: uppercase; font-weight: 700; margin: 40px 680px 0 0}
 .u-section-2 .u-text-2 {font-weight: 700; text-transform: uppercase; margin: 435px 743px 40px 0}
