@@ -43,3 +43,13 @@ def preview():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/image')
+@view('test')
+def preview():
+    """Renders the about page."""
+    return dict(
+        title='image',
+        message='Your application description page.',
+        year=datetime.now().year
+    )

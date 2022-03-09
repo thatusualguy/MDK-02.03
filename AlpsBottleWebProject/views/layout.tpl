@@ -26,6 +26,7 @@
                     <li><a href="/mountain1">Mountain #1</a></li>
                     <li><a href="/mountain2">Mountain #2</a></li>
                     <li><a href="/mountain3">Mountain #3</a></li>
+                    <li><a href="/image">Image</a></li>
                 </ul>
             </div>
         </div>
