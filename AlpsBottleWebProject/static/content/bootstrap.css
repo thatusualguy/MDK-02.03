@@ -3785,9 +3785,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+    /*padding-left: 0;*/
+    position: center;
+    margin-bottom: 0;
+    list-style: none;
 }
 
 .nav:before,
@@ -4132,10 +4133,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
     overflow-y: visible;
   }
   .navbar-collapse .navbar-nav.navbar-left:first-child {
-    margin-left: -15px;
+    margin-left: 50px;
   }
   .navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: -15px;
+    margin-right: 50px;
   }
   .navbar-collapse .navbar-text:last-child {
     margin-right: 0;
