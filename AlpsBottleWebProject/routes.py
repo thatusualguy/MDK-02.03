@@ -34,12 +34,12 @@ def about():
         year=datetime.now().year
     )
 
-@route('/preview')
-@view('preview')
+@route('/mountain')
+@view('mountain')
 def preview():
     """Renders the about page."""
     return dict(
-        title='preview',
+        title='mountain',
         message='Your application description page.',
         year=datetime.now().year
     )
