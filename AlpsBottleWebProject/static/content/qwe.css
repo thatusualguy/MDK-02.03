@@ -7,6 +7,17 @@ div {
 	display: block;
 }
 
+.images-container {
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	margin-top: 25px;
+	border: 1px solid black;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+}
 .container-custom {
 	background: #fff;
 	width: 90%;
@@ -24,10 +35,13 @@ div {
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column-3  {
+.column-3 {
 	float: left;
 	width: 33.33%;
 	padding: 5px;
+}
+.image1 {
+    animation-delay: 7.5s;
 }
 
 /* Clear floats after image containers */
@@ -35,6 +49,9 @@ div {
 	content: "";
 	clear: both;
 	display: table;
+}
+.image2 {
+    animation-delay: 5s;
 }
 
 
@@ -49,9 +66,14 @@ div {
 	top: 0;
 	left: 0;
 }
+.image3 {
+    animation-delay: 2.5s;
+}
 
 .image1 {
 	animation-delay: 7.5s;
+.image4 {
+    animation-delay: 0s;
 }
 
 .image2 {
@@ -97,16 +119,11 @@ div {
 	}
 }
 
-.image-custom {
+.image-custom-rel {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	/*   width: 500px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    left: 0;*/
 }
 
 .image-sm {
@@ -119,6 +136,14 @@ div {
 	margin-left: auto;
 	margin-right: auto;
 }
+.image-custom-abs {
+
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .tb {
 	padding: 40px;
@@ -128,11 +153,9 @@ div {
 .sm {
 	font-size: 25px;
 }
-
 .lg {
 	font-size: 40px;
 }
-
 footer {
 	color: #000;
 	margin: 20px;
