@@ -13,7 +13,6 @@
 	<div class = "tb lg">
 		Lorem ipsum.
 	</div>
-
 	<div class = "wrapper">
 	<input type="radio" name="point" id="slide1" checked>
 	<input type="radio" name="point" id="slide2">
