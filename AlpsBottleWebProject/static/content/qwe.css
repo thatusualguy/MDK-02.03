@@ -13,13 +13,79 @@ div {
     min-height: 1000px;
     margin-right: auto;
     margin-left: auto;
+    box-shadow: #202020 5px 5px 15px;
+}
+
+.images-container {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 25px;
+    border: 1px solid black;
+    overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.image1 {
+    animation-delay: 7.5s;
+}
+
+.image2 {
+    animation-delay: 5s;
+}
+
+.image3 {
+    animation-delay: 2.5s;
+}
+
+.image4 {
+    animation-delay: 0s;
+}
+
+@keyframes slide {
+    from {
+        top: 0;
+        left: 0;
+    }
+
+    12.5% {
+        transform: translate(0px, 0px);
+    }
+
+    25% {
+        transform: translate(-500px, 0);
+    }
+
+    36% {
+        transform: translate(-500px, 300px);
+    }
+
+    37% {
+        transform: translate(500px, 300px);
+    }
+
+    87.5% {
+        transform: translate(500px, 0);
+    }
+
+    to {
+        transform: (0px, 0px);
+    }
 }
 
 .image-custom {
-    display: block;
+ /*   display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 100%;*/
+
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .tb {

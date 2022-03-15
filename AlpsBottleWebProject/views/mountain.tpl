@@ -13,7 +13,12 @@
 	<div class = "tb lg">
 		Lorem ipsum.
 	</div>
-	<img class = "image-custom" src="\static\images\mnt.jpg">
+
+	<div class = "images-container">
+		<img class = "image-custom image1" src="\static\images\mnt.jpg">
+		<img class = "image-custom image2" src="\static\images\1.jpg">
+		<img class = "image-custom image3" src="\static\images\2.jpg">
+	</div>
 
 	<div class = "tb sm">
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
