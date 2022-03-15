@@ -44,12 +44,12 @@ def preview():
         year=datetime.now().year
     )
 
-@route('/image')
-@view('test')
+@route('/guide')
+@view('guide')
 def preview():
     """Renders the about page."""
     return dict(
-        title='image',
-        message='Your application description page.',
+        title='Guide',
+        message='Know your way.',
         year=datetime.now().year
     )
