@@ -9,7 +9,7 @@
 <body>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
     </script>
-    <script type="text/javascript">
+    <script type="text/javascript"> // js Скрипт 
         ymaps.ready(init);
         function init(){
             var myMap = new ymaps.Map("map", {
@@ -32,7 +32,7 @@
 <body>
 <div class="container-custom">
 	<div class = "tb lg">
-		Горы на карте
+		Где нас найти:
 	</div>
 		
 	<div id = "map-test" class = "map image-custom" >
@@ -41,4 +41,4 @@
 </div>
 <footer> </footer>
 </body>	
-</html>information.</p>
+</html>Все права принадлежат ФСПО ГУАП.</p>
