@@ -5,7 +5,7 @@
 ![Главная страница сайта](https://imgur.com/SULz5Au.png)
 
 ## Приступая к работе
-С помощью этиго прокта вы можете запустить локальную копию нашего проекта у вас на локальном комьютере
+С помощью этого проекта вы можете запустить копию проекта на локальном комьютере
 
 
 ### Необходимые компоненты
@@ -34,6 +34,6 @@ pip3 install bottle
 
 ## Авторы
 
-* **Рыбаков Владислав** - *Initial work with index.tpl and styles* - [rybakov1](https://github.com/rybakov1)
-* **Рыбаков Максим** - *Initial work with persons.tpl and project structure* - [MaximilianWithTheRose](https://github.com/MaximilianWithTheRose)
-* **Чиновников Андрей** - *Initial work with mountains.tpl, report and about.tpl* - [DrOnGeE](https://github.com/DrOnGeE)
+* **Рыбаков Владислав** - *Основаная работа с index.tpl и styles* - [rybakov1](https://github.com/rybakov1)
+* **Рыбаков Максим** - *Основаная работа с persons.tpl и project structure* - [MaximilianWithTheRose](https://github.com/MaximilianWithTheRose)
+* **Чиновников Андрей** - *Основаная работа с mountains.tpl, report и about.tpl* - [DrOnGeE](https://github.com/DrOnGeE)

@@ -1,12 +1,12 @@
 % rebase('layout.tpl', year=year)
 
-
+<!-- Шаблон страницы гор -->
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<!--- <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" /> -->
+
 	<link rel="stylesheet" type="text/css" href="/static/content/our_cute_style.css" /> 
 </head>
 <body>

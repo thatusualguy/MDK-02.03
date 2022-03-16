@@ -1,5 +1,6 @@
 % rebase('layout.tpl',title='h', year=year)
 
+<!-- Шаблон стрица с людьми -->
 
 <!DOCTYPE html>
 <html style="font-size: 16px;">

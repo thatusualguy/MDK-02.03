@@ -1,7 +1,7 @@
 % rebase('layout.tpl', title='Home Page', mountain_condition=mountain_condition, year=year)
 
 <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    <!-- Макет карточки с отображением погодных явлений -->
+    <!-- Шаблон карточки с отображения списка гор -->
     %for cond in mountain_condition:
     <div class="col">
         <div class="card">
