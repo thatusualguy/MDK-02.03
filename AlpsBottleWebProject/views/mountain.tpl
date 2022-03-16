@@ -5,10 +5,9 @@
 <html style="font-size: 16px;">
 <head>
 <!--- <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" /> -->
-	<link rel="stylesheet" type="text/css" href="/static/content/qwe.css" /> </head>
-
+	<link rel="stylesheet" type="text/css" href="/static/content/our_cute_style.css" /> 
+</head>
 <body>
-
 <div class="container-custom">
 	<div class = "tb lg">
 		Lorem ipsum.

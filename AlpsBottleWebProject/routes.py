@@ -39,9 +39,8 @@ def about():
 def preview():
     """Renders the about page."""
     return dict(
-        title='mountain',
-        message='Your application description page.',
-        year=datetime.now().year
+        year=datetime.now().year,
+        current=
     )
 
 @route('/image')
