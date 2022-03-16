@@ -34,6 +34,6 @@ pip3 install bottle
 
 ## Authors
 
-* **Рыбаков Владислав** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Рыбаков Максим** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Чиновников Андрей** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Рыбаков Владислав** - *Initial work with index.tpl and styles* - [rybakov1](https://github.com/rybakov1)
+* **Рыбаков Максим** - *Initial work with persons.tpl and project structure* - [MaximilianWithTheRose](https://github.com/MaximilianWithTheRose)
+* **Чиновников Андрей** - *Initial work with mountains.tpl, report and about.tpl* - [DrOnGeE](https://github.com/DrOnGeE)
