@@ -1,4 +1,4 @@
-# Web alps
+# Python Bottle project - Web alps
 
 Проект про горы и не только
 
