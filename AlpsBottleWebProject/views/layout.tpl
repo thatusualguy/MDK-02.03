@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }} - My Bottle Application</title>
 	<link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
@@ -10,16 +10,16 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<div class="container-fluid"> <a class="navbar-brand" href="#">Mountain paradice</a>
+		<div class="container-fluid"> <a class="navbar-brand" href="#">Mountain paradise</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 			<div class="collapse navbar-collapse" id="navbarColor01">
 				<ul class="navbar-nav me-auto">
-					<li class="nav-item"> <a class="nav-link active" href="/home">home
+					<li class="nav-item"> <a class="nav-link active" href="/home">Главная
 						<span class="visually-hidden">(current)</span> 
 					</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="/mountain">mountain</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="/image">test</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="/about">About</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="/mountain">Гора Эверест</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="/bio/bukreev">А.Н. Букреев</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="/about">Контакты</a> </li>
 				</ul>
 			</div>
 		</div>
@@ -27,7 +27,7 @@
 	<div class="container body-content"> {{!base}}
 		<hr />
 		<footer>
-			<p>&copy; {{ year }} - Mountain paradice</p>
+			<p>&copy; {{ year }} - Mountain paradise</p>
 		</footer>
 	</div>
 	<script src="/static/scripts/jquery-1.10.2.js"></script>
