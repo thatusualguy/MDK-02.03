@@ -2,7 +2,7 @@
 
 Проект про горы и не только
 
-![our_site](https://imgur.com/SULz5Au.png)
+![Главная страница сайта](https://imgur.com/SULz5Au.png)
 
 ## Приступая к работе
 С помощью этиго прокта вы можете запустить локальную копию нашего проекта у вас на локальном комьютере
@@ -32,7 +32,7 @@ pip3 install bottle
 * [Boostrap](https://getbootstrap.com/) - Бесплатный набор стилей
 * [Lux theme](https://bootswatch.com/lux/) - Тема проекта на boostwatch
 
-## Authors
+## Авторы
 
 * **Рыбаков Владислав** - *Initial work with index.tpl and styles* - [rybakov1](https://github.com/rybakov1)
 * **Рыбаков Максим** - *Initial work with persons.tpl and project structure* - [MaximilianWithTheRose](https://github.com/MaximilianWithTheRose)
