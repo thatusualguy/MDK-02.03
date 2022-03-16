@@ -4,13 +4,15 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <!--- <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" /> -->
 	<link rel="stylesheet" type="text/css" href="/static/content/our_cute_style.css" /> 
 </head>
 <body>
 <div class="container-custom">
 	<div class = "tb lg">
-		Lorem ipsum.
+		Я крутой.
 	</div>
 	<div class = "wrapper">
 	<input type="radio" name="point" id="slide1" checked>
@@ -34,7 +36,7 @@
 	</div>
 	</div>
 	<div class = "tb sm">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+		аввфаыаы
 	</div>
 </div>
 <footer> </footer>

@@ -19,7 +19,7 @@ body {
 }
 
 .slider {
-    background-color: #ddd;
+    background-color: #454545;
     height: inherit;
     overflow: hidden;
     position: relative;
@@ -58,29 +58,29 @@ body {
 
 .wrapper .controls {
     left: 50%;
-    margin-left: -98px;
+    margin-left: -100px;
     position: absolute;
 }
 
 .wrapper label:after {
-        border: 2px solid #ddd;
+        border: 2px solid #454545;
         content: " ";
         display: block;
-        height: 12px;
+        height: 14px;
         left: -2px;
         position: absolute;
         top: -2px;
-        width: 12px;
+        width: 14px;
         border-radius: 50%;
 }
 
 .wrapper label {
     cursor: pointer;
     display: inline-block;
-    height: 8px;
+    height: 10px;
     margin: 25px 12px 0 16px;
     position: relative;
-    width: 8px;
+    width: 10px;
     border-radius: 50%;
     transition: background ease-in-out .5s;
 }
@@ -91,7 +91,7 @@ body {
     #slide3:checked ~ .controls label:nth-of-type(3),
     #slide4:checked ~ .controls label:nth-of-type(4),
     #slide5:checked ~ .controls label:nth-of-type(5) {
-        background: #ddd;
+        background: #454545;
     }
 
 .slides {
