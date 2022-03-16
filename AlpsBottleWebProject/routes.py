@@ -40,7 +40,6 @@ def preview():
     """Renders the about page."""
     return dict(
         year=datetime.now().year,
-        current=
     )
 
 @route('/image')
