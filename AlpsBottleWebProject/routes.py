@@ -63,4 +63,4 @@ def preview(name):
 
 #@app.route('/static/<filepath:path>')
 #def server_static(filepath):
-    #return static_file(filepath, root='C:\Personal\College\ÌÄÊ 02.02 Ãèò\Web\MaximilianWithTheRose\WebAlps\AlpsBottleWebProject\static\images\')
+    #return static_file(filepath, root='C:\Personal\College\ï¿½ï¿½ï¿½ 02.02 ï¿½ï¿½ï¿½\Web\MaximilianWithTheRose\WebAlps\AlpsBottleWebProject\static\images\')
