@@ -361,5 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/AlpsBottleWebProject/env1
-/AlpsBottleWebProject/env2
+/AlpsBottleWebProject/env*

@@ -39,6 +39,7 @@ def about():
 def preview():
     """Renders the about page."""
     return dict(
+        title='Mountain paradise',
         year=datetime.now().year,
     )
 
