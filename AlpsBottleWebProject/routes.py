@@ -34,10 +34,28 @@ def about():
         year=datetime.now().year
     )
 
-@route('/mountain')
+@route('/mnt/<name>)
 @view('mountain')
 def preview():
     """Renders the about page."""
+
+    d1 = dict(
+        head = "",
+        description = "",
+
+
+        title='Mountain paradise',
+        year = datetime.now().year)
+        )
+
+
+    for x in dicts:
+        if(x["val"]==name):
+            return x;
+    
+    return "No pages found!!!!"
+
+
     return dict(
         title='Mountain paradise',
         year=datetime.now().year,
@@ -57,6 +75,7 @@ def preview(name):
               death = "Погиб 25 декабря в результате схода снежной лавины во время попытки зимнего восхождения на вершину Аннапурна.",
               vid1 = "https://www.youtube.com/embed/OBpubDhDJ78",
               vid2 = "https://www.youtube.com/embed/t1GeXhcEXAA",
+              title='Mountain paradise',
               year = datetime.now().year)
 
     dicts = [d2];
@@ -65,7 +84,7 @@ def preview(name):
         if(x["val"]==name):
             return x;
     
-    return "Error!!!!"
+    return "No pages found!!!!"
 
 #class Bio
 #    name: str
