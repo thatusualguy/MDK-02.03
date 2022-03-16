@@ -43,8 +43,8 @@ def preview():
         year=datetime.now().year,
     )
 
-@route('/image')
-@view('test')
+@route('/bukreev')
+@view('human')
 def preview():
     """Renders the about page."""
     return dict(

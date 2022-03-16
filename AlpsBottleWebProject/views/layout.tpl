@@ -18,7 +18,7 @@
 						<span class="visually-hidden">(current)</span> 
 					</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="/mountain">mountain</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="/image">test</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="/bukreev">А.Н. Букреев</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="/about">About</a> </li>
 				</ul>
 			</div>

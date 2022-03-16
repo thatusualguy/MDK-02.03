@@ -161,3 +161,22 @@ footer {
     color: #000;
     margin: 20px;
 }
+
+
+.img-thumbnail-custom {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.size-bio{
+    height: 600px;
+    width: 800px;
+}
+
+.float-r{
+    float: right
+}
+
+.float-l{
+    float: left
+}

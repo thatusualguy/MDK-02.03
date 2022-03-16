@@ -50,7 +50,9 @@
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\images\411px-Anatoli_Bukrejev_Kasahstani_alpinist_1991.jpg" />
     <Content Include="static\images\mnt.jpg" />
+    <Content Include="static\images\mnt2.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
@@ -72,7 +74,7 @@
     <Content Include="views\layout.tpl" />
     <Content Include="views\mountain.tpl" />
     <Content Include="views\preview.tpl" />
-    <Content Include="views\test.html" />
+    <Content Include="views\bukreev.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env3\">
