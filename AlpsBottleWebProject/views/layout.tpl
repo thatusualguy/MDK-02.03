@@ -17,8 +17,9 @@
 					<li class="nav-item"> <a class="nav-link active" href="/home">Главная
 						<span class="visually-hidden">(current)</span> 
 					</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="/mountain">Гора Эверест</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="/mnt/everest">Гора Эверест</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="/bio/bukreev">А.Н. Букреев</a> </li>
+					<li class="nav-item"> <a class="nav-link" href="/bio/messner">Р.А. Месснер</a> </li>
 					<li class="nav-item"> <a class="nav-link" href="/about">Контакты</a> </li>
 				</ul>
 			</div>
