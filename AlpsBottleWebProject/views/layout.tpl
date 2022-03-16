@@ -10,7 +10,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<div class="container-fluid"> <a class="navbar-brand" href="#">Mountain paradice</a>
+		<div class="container-fluid"> <a class="navbar-brand" href="#">Mountain paradise</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 			<div class="collapse navbar-collapse" id="navbarColor01">
 				<ul class="navbar-nav me-auto">
@@ -27,7 +27,7 @@
 	<div class="container body-content"> {{!base}}
 		<hr />
 		<footer>
-			<p>&copy; {{ year }} - Mountain paradice</p>
+			<p>&copy; {{ year }} - Mountain paradise</p>
 		</footer>
 	</div>
 	<script src="/static/scripts/jquery-1.10.2.js"></script>
