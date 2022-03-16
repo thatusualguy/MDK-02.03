@@ -5,13 +5,50 @@ Routes and views for the bottle application.
 from bottle import route, view
 from datetime import datetime
 
+class MountainCondition:
+    name: str
+    description: str
+    image_link: str
+
+    def __init__(self, name: str, description: str, image_link: str):
+        self.name = name
+        self.description = description
+        self.image_link = image_link
+
 @route('/')
 @route('/home')
 @view('index')
 def home():
     """Renders the home page."""
     return dict(
-        year=datetime.now().year
+        year=datetime.now().year,
+        mountain_condition=[
+            MountainCondition(
+                'Эверест',
+                'Эверест, известный также как Джомолунгма, является самой высокой точкой нашей планеты.',
+                'https://i.imgur.com/CwxmBW3.png'
+            ),
+            MountainCondition(
+                'Гималаи',
+                'Гималаи — высочайшая горная система Земли, расположенная между Тибетским нагорьем на севере и Индо-Гангской равниной на юге.',
+                'https://imgur.com/NwHmNir.png'
+            ),            
+            MountainCondition(
+                'Канченджанга',
+                'Канченджанга — горный массив в Гималаях, главная вершина которого, высотой 8586 м над уровнем моря, является третьим по высоте восьмитысячником мира.',
+                'https://i.imgur.com/r3X1hLo.png'
+            ),            
+            MountainCondition(
+                'Макалу',
+                'Макалу – пятая по высоте гора мира, она расположена в 22 км к востоку от горы Эверест.',
+                'https://imgur.com/mdrvXaR.png'
+            ),
+            MountainCondition(
+                'Аннапурна',
+                'Аннапурна — горный массив в Гималаях, где находятся высочайшие вершины — Аннапурна и Дхаулагири, разделенные самой глубокой на планете долиной Калигандаки.',
+                'https://i.imgur.com/0FdHZ42.jpg'
+            ),
+        ]
     )
 
 @route('/contact')
@@ -97,7 +134,7 @@ def preview(name):
 def preview(name):
     """Renders the about page."""
 
-    d1 = dict(val = "burkeev", 
+    d1 = dict(val = "bukreev", 
               name= "Анатолий Николаевич Букреев",
               img ="https://i.imgur.com/7go85qx.jpeg", 
               disc =  "Анатолий Николаевич Букреев (16 января 1958, Коркино, Челябинская область, СССР — 25 декабря 1997, Аннапурна, Гималаи, Непал) — советский и казахстанский высотный альпинист, горный гид и писатель русского происхождения. Заслуженный мастер спорта СССР (1989), мастер спорта СССР международного класса (1989), обладатель титула «Снежный барс» (1985). Покоритель одиннадцати восьмитысячников планеты, совершивший на них в общей сложности 18 восхождений. По мнению Райнхольда Месснера, самый сильный альпинист-высотник XX века. Кавалер ордена «За личное мужество» (1989), казахстанской медали «За мужество» (1998, посмертно), высшей награды Американского альпклуба — медали Дэвида Соулса, вручаемой альпинистам, спасшим в горах людей с риском для собственной жизни (1997).",
@@ -123,7 +160,7 @@ def preview(name):
 
 
 
-    dicts = [d2];
+    dicts = [d1, d2];
 
     for x in dicts:
         if(x["val"]==name):
@@ -153,3 +190,4 @@ def preview(name):
 #@app.route('/static/<filepath:path>')
 #def server_static(filepath):
     #return static_file(filepath, root='C:\Personal\College\МДК 02.02 Гит\Web\MaximilianWithTheRose\WebAlps\AlpsBottleWebProject\static\images\')
+
