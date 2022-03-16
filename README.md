@@ -2,7 +2,7 @@
 
 Проект про горы и не только
 
-![Uploading image.png…]()
+![our_site](https://imgur.com/SULz5Au.png)
 
 ## Приступая к работе
 С помощью этиго прокта вы можете запустить локальную копию нашего проекта у вас на локальном комьютере
@@ -21,8 +21,8 @@ pip3 install bottle
 Пошаговая установка проекта
 
 ```
-1. Склонируйте проект -> git clone https://github.com/qwonix/wish-everyone-become-pitonist.git
-2. Перейдите в папку проекта -> cd wish-everyone-become-pitonist
+1. Склонируйте проект -> git clone https://github.com/MaximilianWithTheRose/WebAlps.git
+2. Перейдите в папку проекта -> cd WebAlps
 3. Запустите .py файл -> ./app.py
 ```
 
@@ -37,5 +37,3 @@ pip3 install bottle
 * **Рыбаков Владислав** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 * **Рыбаков Максим** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 * **Чиновников Андрей** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
