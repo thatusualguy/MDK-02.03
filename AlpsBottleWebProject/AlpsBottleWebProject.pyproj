@@ -74,7 +74,7 @@
     <Content Include="views\layout.tpl" />
     <Content Include="views\mountain.tpl" />
     <Content Include="views\preview.tpl" />
-    <Content Include="views\bukreev.html" />
+    <Content Include="views\human.tpl" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env3\">

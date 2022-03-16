@@ -12,7 +12,7 @@
 	<div class="container-custom">
 		<div class="text-center">
 
-			<img class="img-thumbnail img-thumbnail-custom" width="822" height="612" src="../static/images/411px-Anatoli_Bukrejev_Kasahstani_alpinist_1991.jpg" />
+			<img class="img-thumbnail img-thumbnail-custom" width="822" height="612" src="{{img}}" />
 
 			<figure class="text-center">
 				<blockquote class="blockquote">
