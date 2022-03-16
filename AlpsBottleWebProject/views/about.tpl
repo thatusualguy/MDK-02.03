@@ -13,7 +13,7 @@
 	</div>
 		
 
-	<div id = "map" class = "map"><script src="https://api-maps.yandex.ru/2.1/?apikey=âàø API-êëþ÷&lang=ru_RU">
+	<div id = "map" class = "map"><script src="https://api-maps.yandex.ru/2.1/?apikey=Ð²Ð°Ñˆ API-ÐºÐ»ÑŽÑ‡&lang=ru_RU">
 	</script></div>
 </div>
 <script src="mapp.js"></script>
