@@ -17,7 +17,7 @@
 </div>
 
 
-<form action ="/home" method="post">
+<form action ="/meow" method="post">
   <fieldset>
     <legend>Legend</legend>
     <div class="form-group">
@@ -35,5 +35,5 @@
       <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
     </div>
 
-    <div class="btn btn-primary">Submit</div>
+    <button type="submit" value="Send" class="btn btn-primary">Submit</button>
 </form>
