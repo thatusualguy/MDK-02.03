@@ -4,7 +4,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d65ce8f8-5f7b-4bf8-843e-a21e63411abd</ProjectGuid>
+    <ProjectGuid>3edb5dcc-cde0-4c8d-a6c6-0200e48104a5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{e614c764-6d9e-4607-9337-b7073809a0bd};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <StartupFile>app.py</StartupFile>
@@ -16,10 +16,10 @@
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
     <PythonDebugWebServerCommandArguments>--debug $(CommandLineArguments)</PythonDebugWebServerCommandArguments>
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
-    <Name>AlpsBottleWebProject</Name>
-    <RootNamespace>AlpsBottleWebProject</RootNamespace>
+    <Name>Lab5</Name>
+    <RootNamespace>Lab5</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
-    <UseIISExpress>true</UseIISExpress>
+    <WebBrowserPort>12345</WebBrowserPort>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,30 +31,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="myform.py" />
     <Compile Include="routes.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="static\" />
     <Folder Include="static\content\" />
     <Folder Include="static\fonts\" />
-    <Folder Include="static\images\" />
     <Folder Include="static\scripts\" />
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="diag.vsdx" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
-    <Content Include="static\content\our_cute_style.css" />
     <Content Include="static\content\site.css" />
     <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="static\images\411px-Anatoli_Bukrejev_Kasahstani_alpinist_1991.jpg" />
-    <Content Include="static\images\mnt.jpg" />
-    <Content Include="static\images\mnt2.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
     <Content Include="static\scripts\bootstrap.min.js" />
     <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
@@ -66,7 +61,6 @@
     <Content Include="static\scripts\jquery.validate.min.js" />
     <Content Include="static\scripts\jquery.validate.unobtrusive.js" />
     <Content Include="static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="static\scripts\mapp.js" />
     <Content Include="static\scripts\modernizr-2.6.2.js" />
     <Content Include="static\scripts\respond.js" />
     <Content Include="static\scripts\respond.min.js" />
@@ -75,10 +69,6 @@
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
-    <Content Include="views\mountain - Copy.tpl" />
-    <Content Include="views\mountain.tpl" />
-    <Content Include="views\preview.tpl" />
-    <Content Include="views\human.tpl" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
@@ -91,19 +81,20 @@
       <Architecture>X64</Architecture>
     </Interpreter>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
-          <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:60526/</IISUrl>
-          <NTLMAuthentication>False</NTLMAuthentication>
-          <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
@@ -124,7 +115,7 @@
           </StartCmdLineArguments>
           <StartWorkingDirectory>
           </StartWorkingDirectory>
-          <EnableENC>True</EnableENC>
+          <EnableENC>False</EnableENC>
           <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
         </WebProjectProperties>
       </FlavorProperties>

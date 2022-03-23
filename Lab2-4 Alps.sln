@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AlpsBottleWebProject", "AlpsBottleWebProject\AlpsBottleWebProject.pyproj", "{D65CE8F8-5F7B-4BF8-843E-A21E63411ABD}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab5", "Lab5\Lab5.pyproj", "{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D65CE8F8-5F7B-4BF8-843E-A21E63411ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65CE8F8-5F7B-4BF8-843E-A21E63411ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D65CE8F8-5F7B-4BF8-843E-A21E63411ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
