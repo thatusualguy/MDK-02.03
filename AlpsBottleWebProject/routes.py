@@ -9,7 +9,7 @@ from bottle import post, request
 
 @post('/meow', method='post')
 def my_form():
-    mail = request.forms.get('ADRESS')
+    mail = request.forms.get('ADDRESS')
     return "Thanks! The answer will be sent to the mail %s" % mail
 
 class MountainCondition:
