@@ -1,16 +1,6 @@
-"""
-Routes and views for the bottle application.
-"""
-
 from bottle import route, view
 from datetime import datetime
-
-from bottle import post, request
-
-@post('/meow', method='post')
-def my_form():
-    mail = request.forms.get('ADDRESS')
-    return "Thanks! The answer will be sent to the mail %s" % mail
+import myform
 
 class MountainCondition:
     name: str
