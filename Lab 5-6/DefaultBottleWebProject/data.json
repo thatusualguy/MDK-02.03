@@ -1,1 +1,14 @@
-{"notexample@example.com": "who is me"}{"example@example.com": "secod try"}{"example@notexample.com": "last try"}
+{
+    "example@example.com": [
+        "asdasd",
+        "asdasd 2",
+        "new question"
+    ],
+    "example@example.comm": [
+        "asdasd",
+        "qwe"
+    ],
+    "example@example.coooom": [
+        "qwe"
+    ]
+}

@@ -1,7 +1,7 @@
 from bottle import post, request
 import json
 import pdb
-import re   
+import re
   
 regex = r'^[a-z0-9._+\-]+@([a-z0-9]+[.])+[a-z0-9]+$'
 
@@ -25,10 +25,21 @@ def my_form():
 	if(not isEmail(mail)):
 		return "Enter only valid email, please!"
 
-	questions = {mail: question}
+	questions : dict = {}
 
-	with open('data.json', 'a') as f:
-		json.dump(questions, f)
+	try:
+		with open('data.json', 'r') as f:
+			questions = json.load(f)
+	except :
+	    print("init file data.json")
+
+	if mail in questions:
+		questions[mail].append(question)
+	else:
+		questions[mail] = [question]
+	
+	with open('data.json', 'w') as f:
+		json.dump(questions, f, ensure_ascii=False, indent=4)
 
 
 	# pdb.set_trace();
