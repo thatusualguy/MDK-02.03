@@ -5,7 +5,13 @@ VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "AlpsBottleWebProject", "AlpsBottleWebProject\AlpsBottleWebProject.pyproj", "{D65CE8F8-5F7B-4BF8-843E-A21E63411ABD}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Lab5", "Lab5\Lab5.pyproj", "{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DefaultBottleWebProject", "Lab5\DefaultBottleWebProject.pyproj", "{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonConsole", "PythonConsole\PythonConsole.pyproj", "{348C0159-5DB2-4C97-805D-28D5EACBAB8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab 2-4", "Lab 2-4", "{A79221FC-7D70-4E98-B9AB-F18CF81541FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab 5-6", "Lab 5-6", "{5361D359-476C-46D4-8324-3229168D96C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,16 @@ Global
 		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348C0159-5DB2-4C97-805D-28D5EACBAB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348C0159-5DB2-4C97-805D-28D5EACBAB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D65CE8F8-5F7B-4BF8-843E-A21E63411ABD} = {A79221FC-7D70-4E98-B9AB-F18CF81541FE}
+		{3EDB5DCC-CDE0-4C8D-A6C6-0200E48104A5} = {5361D359-476C-46D4-8324-3229168D96C0}
+		{348C0159-5DB2-4C97-805D-28D5EACBAB8F} = {5361D359-476C-46D4-8324-3229168D96C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DAD79744-C10D-40DB-9DC0-D70E87498AC2}
