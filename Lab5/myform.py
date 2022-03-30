@@ -1,12 +1,12 @@
 from bottle import post, request
 import re   
   
-regex = '^[a-z0-9._]+[@]\w+[.]\w{2,3}$' 
+regex = r'^[a-z0-9._+\-]+@([a-z0-9]+[.])+[a-z0-9]+$'
 
 def isEmail(mail):
 	if(re.search(regex, mail)):
 		return True;
-	else :
+	else:
 		return False
 
 
@@ -22,6 +22,8 @@ def my_form():
 
 	if(not isEmail(mail)):
 		return "Enter only valid email, please!"
+
+	
 
 	return "Thanks! The answer will be sent to the mail %s" % mail
 
