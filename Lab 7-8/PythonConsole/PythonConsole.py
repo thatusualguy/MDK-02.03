@@ -7,3 +7,5 @@ mail = 'example@examle.com'
 
 text = 'example'
 questions[mail] = text
+
+print(questions["mem"])

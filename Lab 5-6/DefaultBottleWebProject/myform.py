@@ -1,4 +1,5 @@
 from bottle import post, request
+import pdb;
 import re   
   
 regex = r'^[a-z0-9._+\-]+@([a-z0-9]+[.])+[a-z0-9]+$'
@@ -23,8 +24,9 @@ def my_form():
 	if(not isEmail(mail)):
 		return "Enter only valid email, please!"
 
-	
+	questions = {mail: question}
 
+	pdb.set_trace();
 	return "Thanks! The answer will be sent to the mail %s" % mail
 
 
