@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ProjectTarget>
+    <TargetProject>3edb5dcc-cde0-4c8d-a6c6-0200e48104a5</TargetProject>
+    <FriendlyName>DefaultBottleWebProject</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\max\AppData\Local\Temp\DefaultBottleWebProject_20220413.vsp</Filename>
+    </Report>
+    <Report>
+      <Filename>C:\Users\max\AppData\Local\Temp\DefaultBottleWebProject_20220413(1).vsp</Filename>
+    </Report>
+  </Reports>
+  <UseVTune>false</UseVTune>
+</ProfilingTarget>
