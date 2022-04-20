@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="diag.vsdx" />
+    <Content Include="libman.json" />
     <Content Include="requirements.txt" />
     <Content Include="static\content\bootstrap.css" />
     <Content Include="static\content\bootstrap.min.css" />
