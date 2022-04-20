@@ -1,6 +1,5 @@
 from bottle import post, request
 import json
-import pdb
 import re
   
 regex = r'^[a-z0-9._+\-]+@([a-z0-9]+[.])+[a-z0-9]+$'
@@ -39,7 +38,7 @@ def my_form():
 		questions[mail] = [question]
 	
 	with open('data.json', 'w') as f:
-		json.dump(questions, f, ensure_ascii=False, indent=4)
+		json.dump(questions, f, ensure_ascii=False, indent=4)	
 
 
 	# pdb.set_trace();
